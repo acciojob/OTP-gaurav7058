@@ -3,9 +3,6 @@ let codes = document.querySelectorAll(".code")
 // change, input
 
 codes.forEach((code,index)=>{
-
-    
-
     code.addEventListener("input",()=>{
 
         if(code.value.length == 1){
